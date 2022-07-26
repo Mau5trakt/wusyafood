@@ -1,12 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title> Usuarios </title>
-</head>
-<body>
+{% extends "layout.html" %}
+
+{% block title %}
+    Total
+{% endblock %}
+
+{% block contenido %}
 <h1>Total de personas</h1>
-<table>
+<table class="table table-hover">
     <thead>
     <tr>
         <th>Id</th>
@@ -26,5 +26,4 @@
 
     </tbody>
 </table>
-</body>
-</html>
+{% endblock %}
