@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Usuarios </title>
+</head>
+<body>
+<h1>Total de personas</h1>
+<table>
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Nombre</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    {% for persona in personas %}
+        <tr>
+        <td>{{ persona.id }}</td>
+        <td> {{ persona.nombre }}</td>
+
+        </tr>
+    
+    {% endfor %}
+
+    </tbody>
+</table>
+</body>
+</html>
