@@ -1,5 +1,5 @@
 from sqlalchemy import Column, String, Integer, Sequence, VARCHAR
-from app.db import Base, engine
+from db import Base, engine
 
 
 class Usuarios(Base):

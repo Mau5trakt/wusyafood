@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, render_template
-from app.db import Session, engine
-from app.models import Usuarios
+from db import Session, engine
+from models import Usuarios
 
 
 app = Flask(__name__)
